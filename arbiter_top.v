@@ -19,6 +19,6 @@ module arbiter_top #(parameter N = 128) (
       );
     end
   endgenerate
-  sr_latch sr(n[N-1],m[N-1],reset,out);
+  d_latch sr(n[N-1],m[N-1],reset,out);
 
 endmodule  
