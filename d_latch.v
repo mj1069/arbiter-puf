@@ -1,4 +1,4 @@
-module sr_latch(
+module d_latch(
   input d_in, clk, reset,
   output reg q_out
 );
